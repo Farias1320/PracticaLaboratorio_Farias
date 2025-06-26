@@ -17,6 +17,24 @@ Este proyecto es un **Jupyter Notebook** en Python que simula el menú de un res
 4. **Resumen del pedido:**  
    Al finalizar, se muestra un resumen con los platos elegidos y el total a pagar.
 
+## Manipulación avanzada del menú
+
+- **Modificar un precio:**  
+  Puedes actualizar el precio de cualquier plato directamente en el diccionario. Por ejemplo, se aplica un 10% de descuento a la "Fritada" y se muestra el menú actualizado.
+
+- **Añadir un nuevo plato temporal:**  
+  Se puede agregar un "Plato del Día" al menú, con su propio precio e ingredientes, y luego mostrar el menú completo con este nuevo plato.
+
+## Exploración de errores y depuración
+
+- **Error de índice (IndexError):**  
+  El notebook incluye ejemplos donde se intenta acceder a un elemento fuera de rango en una lista o tupla, lo que genera un IndexError.  
+  Estas líneas están comentadas, pero puedes descomentarlas para ver el error y aprender cómo ocurre.
+
+- **Inmutabilidad de tuplas (TypeError):**  
+  También se muestra qué ocurre si intentas modificar un elemento de una tupla de ingredientes.  
+  Esto genera un TypeError porque las tuplas no se pueden modificar después de ser creadas.
+
 ## Ejemplo de uso
 
 ```
@@ -36,7 +54,7 @@ RESUMEN DE TU PEDIDO
 Platos seleccionados:
    1. Fritada
 
-TOTAL A PAGAR: $9.00
+TOTAL A PAGAR: $8.10
 ¡Gracias por tu pedido!
 ```
 
@@ -49,7 +67,8 @@ TOTAL A PAGAR: $9.00
 
 1. Abre el archivo `menu.ipynb` en Jupyter Notebook.
 2. Ejecuta las celdas una por una siguiendo el flujo del menú interactivo.
+3. Puedes probar los ejemplos de errores descomentando las líneas indicadas para ver cómo funcionan los errores en Python.
 
 ---
 
-¡Disfruta usando el menú interactivo en Jupyter Notebook!
+¡Disfruta usando el menú interactivo
